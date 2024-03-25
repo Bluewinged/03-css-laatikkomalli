@@ -1,0 +1,44 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+}
+section {
+    background-color: #BBDDEE;
+    margin-block-end: 1rem;
+    padding: 1rem;
+}
+.iso {    
+    float: left;
+    font-size: 500%;
+    width: 5rem;
+    text-align: center;
+    padding: 0.2rem;
+    background-color: #568;
+    color: white;
+    border: solid white 1px;
+    border-width: 0 1rem 1rem 0;   
+    margin: -1rem 2rem 2rem -1rem;
+}
+.reunaviiva {
+    border: black solid 1px;
+    
+}
+h1, h2, pre, p, ul {
+    margin-block-end: 1rem;
+}
+h2 {
+    font-size: 1.6rem;
+}
+pre {
+    font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+p {
+    font-size: 1.6rem;
+}
+ul {
+    font-size: 1.6rem;
+}
