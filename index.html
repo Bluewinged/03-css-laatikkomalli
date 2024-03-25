@@ -41,14 +41,14 @@ border-width: 0 0.2em 0.2em 0; margin: 0 0.5em 0.2em 0;}
       </p>
     </section>
     <section class="reunaviiva">
-      <figure>
+      <figure class="magnifier">
         <img src="./images/magnifier.png" alt="" />
         </figure>
-      <h2>Boxpunch</h2>
+      <h2>boxpunch</h2>
       <p>
         So we can do it after all! (Assuming we aren't using IE5.x/Win or
         IE6/Win, that is, which isn't able to keep up. If you want to see the
-        variant that does work in IE/Win, go ahead.) Notice how the border of
+        variant that does work in IE/Win, <a href="">go ahead</a>.) Notice how the border of
         the main div is bent out of a rectangle so that it runs inside the
         floated element. Okay, I'm lying. That isn't what's really happening.
         Instead, I set one-pixel black borders on the right and bottom edges of
@@ -69,7 +69,7 @@ div#punch2 img {height: 70px; width: 100px;}
             </pre
       >
       <p>
-        As in the curvelicious demo, the h1 at the top is simply styled as
+        As in the <a href="">curvelicious demo</a>, the h1 at the top is simply styled as
         normal, and its borders and background "slide under" the floated
         element. This is expected behavior in CSS2. If you were to set a left
         border on the h1, you'd have to make it at least 111px wide before it
@@ -83,11 +83,12 @@ div#punch2 img {height: 70px; width: 100px;}
     <section class="reunaviiva">
       <p class="banner">
         Like this text? It can be yours for just $19.99! But wait! There's more!
-        If you call in the next ten minutes, we'll throw in a copy of Amaya
+        If you call in the next ten minutes, we'll throw in a copy of 
+        Amaya
         absolutely free! Don't delay-- act now!
       </p>
       <h2>Again with the punching</h2>
-      <p>
+      <p class="no-padding">
         Of course, if one is floating elements, then one can float anything, not
         just images. In this case I've floated a div, but it could have been any
         text element. The borders and margins are set up just like last time.
@@ -96,14 +97,14 @@ div#punch2 img {height: 70px; width: 100px;}
         small table of icons or decorative images? You could just float the
         table itself and be done. Pretty cool, eh?
       </p>
-      <p>
+      <p class="no-padding">
         For that matter, why restrict yourself to floating things into the
         corner of the box? How about going straight to the right or left from
         within the block?
       </p>
-      <p class="banner right">"Better to stick to what's needed."</p>
+      <p class="banner-right">"Better to stick to what's needed."</p>
 
-      <p>
+      <p class="no-padding">
         It's the same basic principle as before, only this time we need to draw
         three of the borders and only pull the float one pixel to the left. We
         could keep pulling it one pixel upward as well, but that's no necessary
@@ -122,7 +123,7 @@ color: black; border: solid black 1px;
 border-width: 1px 0 1px 1px; margin: 0.2em -1px 0.2em 0.5em;}
 </pre
       >
-      <p>
+      <p class="no-padding">
         Note that, due to rounding errors, Mozilla (and thus Netscape 6.x) may
         not move a right-floated element over as far as it should be. If you
         resize your browser window enough times, you'll see a black border
@@ -130,19 +131,21 @@ border-width: 1px 0 1px 1px; margin: 0.2em -1px 0.2em 0.5em;}
         pixel too far to the left, and the main div's border becomes visible.
         Hopefully they'll fix that eventually.
       </p>
-      <p>
+      <p class="no-padding">
         There are any number of ways this concept could be extended, really. The
         only limit is your imagination! And negative margins don't have to be
-        restricted to floats, either. Consider this fairly irregular-looking
-        page and how it's been created. Some floats, some normal-flow elements,
+        restricted to floats, either. Consider <a href="">this fairly irregular-looking
+        page</a> and how it's been created. Some floats, some normal-flow elements,
         a few one-pixel negative margins, and you've got some twisty layouts! I
         just hope Wired doesn't sue me for stylistic theft...
       </p>
-      <h3>Jump to</h3>
+      <h3>Jump to
+
+      </h3>
       <ul>
-        <li>css/edge home</li>
-        <li>boxpunch 2</li>
-        <li>boxpunch-IE</li>
+        <li><a href=""> css/edge home</a></li>
+        <li><a href="">boxpunch 2</a></li>
+        <li><a href="">boxpunch-IE</a></li>
       </ul>
     </section>
   </body>
